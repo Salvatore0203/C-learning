@@ -1,0 +1,35 @@
+总结
+
+
+指针是一个变量（值是内存地址 	16进制的数字）
+   
+   
+   
+int num = 4;
+int* p_num = &num;	定义指针指向num的地址
+*p_num 取这块空间地址的值
+
+int num1;
+int& num2 = num1;
+
+const int& num = 常量; 
+
+
+指针支持运算
+double* p1++    p2--		实际上是变量存储地址的移动，移动8个字节
+							移动多少和前面的类型有关，double型占8个字节
+							
+int num[10];
+int* p_num = num;
+sizeof(num)  占40字节 		 sizeof(p_num) 占4/8字节
+数组是有类型的，类型就是他的数据类型int[]
+指针是没有类型的，就一个地址
+
+二维数组
+int (*p)[4] = new int[5][4];  动态二维数组分配
+delete[][]
+sizeof(p) 还是4个字节
+切记！！！new一个新的动态数组，一定要delete释放掉
+
+
+
