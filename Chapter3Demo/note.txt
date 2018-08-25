@@ -1,0 +1,98 @@
+！非 ~反 ++-- sizeof（字符长度）
+
+
+！ 
+算术运算符
+关系运算符
+&&
+||
+赋值运算符
+
+
+int num = 5 > 6  ? 10 : 12;
+
+//5是否大于6 是的话输出10不是的话输出12
+
+
+
+switch       开关；
+case          小case 情况
+break        跳出、退出
+default      默认 
+
+
+switch(表达式)          switch后的表达式只能是整型或者字符型
+{	               case后常量表达式的值不能相同
+case 常量1：            case后允许多条语句，不需要大括号
+        语句1；            如果不添加break语句，需要特别注意执行顺序，default和case可以自行调换，default也可以自行省略
+        break;
+case 常量1：
+        语句1；
+        break;
+case 常量1：
+        语句1；
+        break;
+.......
+default;
+        语句；
+
+}
+
+
+
+把while看成是加强版的if
+
+int i =1;
+while(i <= 10){
+    cout << ...... << endl;
+    i++;     //i = i + 1; 
+}
+
+return 0 ;        
+l   n 
+0  4
+1  2
+2  0
+
+刚开始学的注意点：                
+	强烈建议大家开下脑洞，在脑袋模仿循环的顺序转一遍
+	>控制<  循环的次数
+
+	———循环变量
+	int i = 1;
+	while(){
+	      //while循环 先判断再执行
+	}
+
+
+do{
+}while()当while条件里面成立，继续do循环，如果为假，直接跳出答案
+
+while循环严进宽出   do...while循环宽进严出
+
+
+C#
+
+for(int i = 0; i< 5; i++){
+
+}
+
+常量定义： define N 5 //宏定义
+
+
+C++    //效率更高
+const int N =20;
+
+真·常量
+
+for(int i =0; i< N; i++){
+
+}
+
+
+
+continue语句从上走 ，break语句从下走
+循环次数确定的情况下使用for
+循环次数不确定的情况下使用while或者do...while
+
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1534419891 source:d:\ѧϰ\c++\mycppworkplace\chapter3demo\main.cpp
+	<iostream>
+
+1534420859 source:d:\ѧϰ\c++\mycppworkplace\chapter3demo\test.cpp
+	<iostream>
+	<cmath>
+
