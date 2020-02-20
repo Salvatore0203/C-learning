@@ -1,5 +1,5 @@
 # C-learning
-The notes and codes  in the process of C++/C learning by Salvatore
+The notes and codes  in the process of C++/C learning by Sherman
 
 
 Chapter1Demo：cin / cout  , 德玛西亚示例
